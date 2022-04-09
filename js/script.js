@@ -1284,7 +1284,7 @@ function applyInputs () {
         multipleSplats(splatStack.pop());
 
     pointers.forEach(p => {
-        if (p.moved) {
+        if (true) {
             p.moved = false;
             splatPointer(p);
         }
